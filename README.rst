@@ -20,10 +20,10 @@ Character Display Examples
 
     0         1         
     01234567890123456789
-    SETUP 2  :   MM:SS.s
+    SETUP 2   :  MM:SS.s
        NN⚑: R=0 y=0
     messagemessagemessag
-    START IN :   MM:SS.s
+    START IN     MM:SS.s
 
 * Steady state display::
 
@@ -32,7 +32,7 @@ Character Display Examples
     GAME 2    :  MM:SS.s
        NN⚑: R=NN y=NN
     messagemessagemessag
-    JB# n/N   :  MM:SS.s
+    JB n/N IN    MM:SS.s
 
 * Last round display::
 
@@ -41,7 +41,7 @@ Character Display Examples
     GAME 2    :  MM:SS.s
        NN⚑: R=NN y=NN
     messagemessagemessag
-    GAME END  :  MM:SS.s
+    GAME END IN  MM:SS.s
 
 * Game over::
 

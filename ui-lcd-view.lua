@@ -101,13 +101,12 @@ local function drawSteadyBotLine(self,rix,maxt,rem)
       lcd:put(lcd:locate(3,0), "START IN")
     elseif rix < ctfws.rounds then
       if ctfws.rounds >= 11
-        then lcd:put(lcd:locate(3,0), string.format("JB# %2d/%2d",rix,ctfws.rounds-1))
-        else lcd:put(lcd:locate(3,0), string.format("JB# %d/%d",rix,ctfws.rounds-1))
+        then lcd:put(lcd:locate(3,0), string.format("JB %2d/%2d IN",rix,ctfws.rounds-1))
+        else lcd:put(lcd:locate(3,0), string.format("JB %d/%d IN",rix,ctfws.rounds-1))
       end
     else
-      lcd:put(lcd:locate(3,0), "GAME END")
+      lcd:put(lcd:locate(3,0), "GAME END IN")
     end
-    lcd:put(lcd:locate(3,10), ":")
   end
   drawDS(lcd,3,11,maxt,self.dl_remain ,rem); self.dl_remain  = rem
 end
